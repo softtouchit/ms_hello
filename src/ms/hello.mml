@@ -1,0 +1,14 @@
+<ms domain="hello">
+
+  <topic  name='http' type='http' >
+  <pub src='ws' protocol='http'  transport="ws" handler="hello" />
+      
+  </topic>
+    
+    
+    <handler name="hello" >
+        <script src="hello.js" />
+    </handler>
+    
+    
+</ms>
